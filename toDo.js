@@ -1,3 +1,4 @@
+function run(){
 let todo = [];
 window.alert("Welcome to To-Do App");
 
@@ -38,4 +39,5 @@ while (true) {
     }
 
     req = prompt("Enter the operation you want to perform :-\n 'list'--> To Display all Tasks \n 'add'--> To Add a Task \n 'delete'--> To Delete a Task \n 'quit'--> To Exit the App \n")
+}
 }
